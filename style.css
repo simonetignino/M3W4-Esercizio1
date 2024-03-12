@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* esercizio 1 */
+.jumbotron h1 {
+    background-color: purple;
+}
+
+/* esercizio 2 */
+nav * {
+    color: aquamarine;
+}
+
+/* si può usare anche questa sintassi per selezionare i figli diretti di nav */
+nav > * {
+    color: red;
+}
+
+nav span {
+    /* "prova" per cambiare il background solo degli span, in maniera da essere più leggibile */
+    background-color: black;
+}
+
+/* esercizio 3 */
+.jumbotron .lead a {
+    color: red;
+    /* si può fare in maniera più semplice mettendo semplicemente ".jumbotron a" */
+}
+
+/* esercizio 4 */
+.blog-post:first-of-type{
+    border: 1px solid blue;
+    /* utilizzo first-of-type per selezionare il primo elemento con la classe blog-post */
+}
+
+.blog-main h3 + div{
+    background: yellow;
+}
+
+/* capire cosa fa nth-child() */
+.blog-post:nth-child(3){
+    color: brown;
+}
+
+/* esercizio 5 */
+.blog-post:first-of-type hr {
+    border-color: red;
+}
+
+/* esercizio 6 */
+.blog-pagination a:nth-of-type(even) {
+    color: red;
+    /* heaven serve a prendere gli elementi pari */
+}
+
+/* esercizio 7 */
+.list-unstyled.mb-0 li{
+    border: 1px solid fuchsia;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* esercizio 8 */
+
+
+/* esercizio 9 */
+
