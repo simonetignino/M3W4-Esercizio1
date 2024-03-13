@@ -50,7 +50,7 @@ nav span {
     border-color: red;
 }
 
-/* esercizio 6 */
+/* esercizio 6 suppongo si riferisca alla navbar inferiore con i pulsanti (l'unica nav con dei link) */
 .blog-pagination a:nth-of-type(even) {
     color: red;
     /* heaven serve a prendere gli elementi pari */
@@ -65,7 +65,25 @@ nav span {
 }
 
 /* esercizio 8 */
-
+.blog-main .blog-post:nth-child(3) p:first-of-type > a{
+    color: yellow;
+}
 
 /* esercizio 9 */
+.blog-main .blog-post:nth-child(4) ul li:nth-of-type(2) {
+    background-color: antiquewhite;
+}
 
+/* esercizio 10 */
+.float-right.mb-3.mr-3 {
+    background-color: darkmagenta;
+}
+
+/* esercizio 11 */
+.blog-pagination a:nth-child(2) {
+    background-color: blueviolet;
+}
+
+.blog-footer a:nth-child(2) {
+    color: brown;
+}
